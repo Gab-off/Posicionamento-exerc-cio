@@ -1,0 +1,133 @@
+/*
+ * Cores
+ * 
+ * cinza: #f7f7f7
+ * cinza-escuro #c6c6c6
+ * vermelho: #ee2211
+ * 
+ * Tipografia
+ * parágrafos: 20px
+ * vantagens Bikcraft: 64px
+ * 
+ *
+ * 
+ * */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f7;
+}
+
+p {
+    font-size: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-logo {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    margin: 65px 0;
+    text-align: center
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin-bottom: 90px;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.card-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 80px;
+}
+
+.card-one {
+    padding: 40px;
+    text-align: end;
+    background-color: #fff;
+    display: grid;
+    grid-template-rows: repeat(3, max-content);
+    gap: 20px;
+    align-content: center;
+    place-items: end;
+}
+
+.title-card-one {
+    font-size: 32px;
+}
+
+.red-button {
+    text-transform: uppercase;
+    border: 0;
+    padding: 20px 40px;
+    border-radius: 5px;
+    background-color: #ff0000;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.image-card-two {
+    max-width: 100%;
+}
+
+.card-three {
+    align-content: center;
+    text-align: center;
+}
+
+.card-three .title-card-three {
+    text-transform: uppercase;
+    font-size: 64px;
+    color: #c6c6c6;
+}
+
+.card-four {
+    background-color: #fff;
+    padding: 55px;
+}
+
+.card-four .list {
+    display: grid;
+    grid-template-columns: 40px 2fr;    
+    padding: 25px 0; 
+}
+
+footer {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.red-sticker {
+    width: 70px;
+    height: 4px;
+    background-color: red;
+    position: absolute;
+    top: 40px;
+    left: 465px;
+}
